@@ -239,6 +239,6 @@ Additional SaaS plans / tiers can also be introduced based on user needs.
 
 ## Final Note
 
-This project is designed as a **realistic frontend simulation of a fintech SaaS dashboard product**.
+This project is designed as a realistic frontend simulation of a financial dashboard product.
 
-The primary objective was to demonstrate not just UI implementation, but also product assumptions, frontend scalability, and maintainable architecture.
+The primary objective of this project was to demonstrate my understanding of frontend development through a clean and interactive financial dashboard interface, focusing on UI design, component structure, state management, and clear data visualization.
