@@ -1,1 +1,51 @@
 @import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  
+  /* Background colors */
+  --color-primary: #FFFFFF;
+  --color-secondary: #ECECF0;
+  --color-third: #727272;
+  /* Text colors */
+  --color-text-primary: #1C1C1C;
+  --color-text-secondary: #424242;
+
+}
+
+  .dark {
+  --color-primary: #18181B;
+  --color-secondary: #27272A;
+  --color-third: #3F3F46;
+
+  --color-text-primary: #FAFAFA;
+  --color-text-secondary: #A1A1AA;
+}
+
+/* Global YouTube-style scrollbar for whole app */
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #525252; /* neutral gray */
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #737373; /* lighter on hover */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #525252 transparent;
+}

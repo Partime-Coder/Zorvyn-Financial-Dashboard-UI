@@ -3,7 +3,7 @@ export const getUsers = () => {
   return users ? JSON.parse(users) : [];
 };
 
-export const saveUsers = (users) => {
+export const setUsers = (users) => {
   localStorage.setItem("users", JSON.stringify(users));
 };
 
@@ -12,7 +12,7 @@ export const getSession = () => {
   return session ? JSON.parse(session) : null;
 };
 
-export const saveSession = (user) => {
+export const setSession = (user) => {
   localStorage.setItem("session", JSON.stringify(user));
 };
 
@@ -25,6 +25,6 @@ export const getTransaction = () => {
     return transaction? JSON.parse(transaction) : [];
 };
 
-export const saveTransaction = (transaction) => {
+export const setTransaction = (transaction) => {
     localStorage.setItem("transaction", JSON.stringify(transaction));
 };

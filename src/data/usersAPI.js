@@ -1,52 +1,42 @@
-export const users = [
+
+export const USERS = [
   {
-    id: "usr_001",
-    name: "Sujal Bhagat",
-    email: "sujal@fintrack.com",
-    password: "123456",
-    avatar: "SB",
-    profession: "Frontend Developer",
-    currency: "INR",
-    timezone: "Asia/Kolkata"
+    id: "user_arjun",
+    name: "Arjun Sharma",
+    initials: "AS",
+    email: "arjun@demo.com",
+    password: "demo123",
+    city: "Pune",
+    occupation: "Senior Frontend Developer",
+    company: "TechCorp India",
+    monthlyIncome: 87500,
+    color: "#6366f1",
+    avatar: null,
   },
   {
-    id: "usr_002",
-    name: "Arjun Patil",
-    email: "arjun@fintrack.com",
-    password: "123456",
-    avatar: "AP",
-    profession: "Software Engineer",
-    currency: "INR",
-    timezone: "Asia/Kolkata"
+    id: "user_priya",
+    name: "Priya Mehta",
+    initials: "PM",
+    email: "priya@demo.com",
+    password: "demo123",
+    city: "Mumbai",
+    occupation: "Product Manager",
+    company: "Finserv Solutions",
+    monthlyIncome: 120000,
+    color: "#ec4899",
+    avatar: null,
   },
   {
-    id: "usr_003",
-    name: "Priya Sharma",
-    email: "priya@fintrack.com",
-    password: "123456",
-    avatar: "PS",
-    profession: "Product Designer",
-    currency: "INR",
-    timezone: "Asia/Kolkata"
+    id: "user_rahul",
+    name: "Rahul Kumar",
+    initials: "RK",
+    email: "rahul@demo.com",
+    password: "demo123",
+    city: "Bangalore",
+    occupation: "Freelance Designer",
+    company: "Self-employed",
+    monthlyIncome: 65000,
+    color: "#10b981",
+    avatar: null,
   },
-  {
-    id: "usr_004",
-    name: "Rahul Deshmukh",
-    email: "rahul@fintrack.com",
-    password: "123456",
-    avatar: "RD",
-    profession: "Marketing Analyst",
-    currency: "INR",
-    timezone: "Asia/Kolkata"
-  },
-  {
-    id: "usr_005",
-    name: "Neha Joshi",
-    email: "neha@fintrack.com",
-    password: "123456",
-    avatar: "NJ",
-    profession: "Business Consultant",
-    currency: "INR",
-    timezone: "Asia/Kolkata"
-  }
-];
+]
