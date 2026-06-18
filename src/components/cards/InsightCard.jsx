@@ -1,4 +1,4 @@
-// src/components/dashboard/InsightCard.jsx
+
 import { useState, useMemo } from 'react'
 import {
   PieChart, Pie, Cell, Tooltip, ResponsiveContainer, Legend,
@@ -50,7 +50,7 @@ const tooltipStyle = {
   padding: '10px 14px',
 }
 
-// custom label shown on donut slices
+
 const renderCustomLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent }) => {
   if (percent < 0.05) return null
   const RADIAN = Math.PI / 180
@@ -64,7 +64,7 @@ const renderCustomLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent
   )
 }
 
-// center label inside donut
+
 const DonutCenter = ({ cx, cy, total }) => (
   <text x={cx} y={cy} textAnchor="middle" dominantBaseline="central">
     <tspan x={cx} dy="-0.5em" fill="#9ca3af" fontSize={11}>Total spent</tspan>
@@ -124,7 +124,7 @@ function InsightCard({ transactions = [] }) {
   return (
     <div className='border border-secondary rounded-2xl p-5 flex flex-col gap-4'>
 
-      {/* Header */}
+      
       <div className='flex items-start justify-between flex-wrap gap-3'>
         <div>
           <h3 className='text-text-secondary font-semibold text-sm'>Spending breakdown</h3>
@@ -141,10 +141,9 @@ function InsightCard({ transactions = [] }) {
           )}
         </div>
 
-        {/* Filters */}
+        
         <div className='flex items-center gap-2 flex-wrap'>
 
-          {/* Range */}
           <div className='flex bg-white/5 rounded-lg p-0.5 gap-0.5'>
             {RANGE_OPTIONS.map(o => (
               <button
@@ -187,7 +186,7 @@ function InsightCard({ transactions = [] }) {
         </div>
       </div>
 
-      {/* Chart */}
+      
       {chartType === 'donut' ? (
         <ResponsiveContainer width='100%' height={240}>
           <PieChart>
@@ -259,7 +258,7 @@ function InsightCard({ transactions = [] }) {
         </ResponsiveContainer>
       )}
 
-      {/* Bottom summary row */}
+     
       <div className='flex items-center justify-between pt-2 border-t border-white/5'>
         <span className='text-gray-500 text-xs'>
           {categoryData.length} categories

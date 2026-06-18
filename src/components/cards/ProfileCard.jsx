@@ -1,4 +1,4 @@
-// src/components/cards/ProfileCard.jsx
+
 import { useNavigate } from "react-router-dom"
 import { RiAccountCircleFill, IoIosArrowDown, PiToolbox, MdOutlineDarkMode, MdOutlineLightMode, CiLogout, CiSettings } from "../../assets/icons/reactIcons"
 import { useAuth } from "../../hooks/useAuthentication"
@@ -58,7 +58,7 @@ function ProfileCard({ isCollapsed }) {
     )
   }
 
-  // expanded — avatar card with dropdown
+  
   const trigger = (
     <div className="relative w-full border bg-primary border-third rounded-2xl px-4 py-3 hover:bg-secondary transition-all duration-200 cursor-pointer">
 
