@@ -8,11 +8,9 @@ export const CATEGORIES = [
 ]
 
 export const mockTransactions = [
-// NEW MONTHS TO ADD — May 2025 through April 2026
-// Paste these inside the mockTransactions array, after the last existing entry
 
   // ════════════════════════════════════════════════════
-  // ARJUN SHARMA — May 2025 to April 2026
+  // ARJUN SHARMA — May 2025 to June 18, 2026
   // ════════════════════════════════════════════════════
 
   // ── MAY 2025 ──
@@ -292,8 +290,69 @@ export const mockTransactions = [
   { id:"a424", userId:"user_arjun", date:"2026-04-29", description:"Interest — savings account", amount:680, type:"income", category:"Passive Income", recurring:true, note:"" },
   { id:"a425", userId:"user_arjun", date:"2026-04-30", description:"Zomato — month end dinner", amount:820, type:"expense", category:"Food", recurring:false, note:"" },
 
+  // ── MAY 2026 ──
+  { id:"a426", userId:"user_arjun", date:"2026-05-01", description:"Salary credit — May 2026", amount:92000, type:"income", category:"Salary", recurring:true, note:"" },
+  { id:"a427", userId:"user_arjun", date:"2026-05-01", description:"House rent — May", amount:18000, type:"expense", category:"Rent", recurring:true, note:"" },
+  { id:"a428", userId:"user_arjun", date:"2026-05-01", description:"Home loan EMI — HDFC", amount:22400, type:"expense", category:"EMI", recurring:true, note:"Month 51 of 240" },
+  { id:"a429", userId:"user_arjun", date:"2026-05-02", description:"Car loan EMI — Axis Bank", amount:8750, type:"expense", category:"EMI", recurring:true, note:"Month 27 of 60" },
+  { id:"a430", userId:"user_arjun", date:"2026-05-02", description:"Netflix", amount:649, type:"expense", category:"Subscriptions", recurring:true, note:"" },
+  { id:"a431", userId:"user_arjun", date:"2026-05-02", description:"Spotify Family", amount:179, type:"expense", category:"Subscriptions", recurring:true, note:"" },
+  { id:"a432", userId:"user_arjun", date:"2026-05-03", description:"MSEB electricity bill", amount:4380, type:"expense", category:"Utilities", recurring:true, note:"Summer peak — AC running" },
+  { id:"a433", userId:"user_arjun", date:"2026-05-03", description:"Jio postpaid", amount:1499, type:"expense", category:"Utilities", recurring:true, note:"" },
+  { id:"a434", userId:"user_arjun", date:"2026-05-04", description:"Amazon Prime", amount:299, type:"expense", category:"Subscriptions", recurring:true, note:"" },
+  { id:"a435", userId:"user_arjun", date:"2026-05-04", description:"Google One — 200GB", amount:130, type:"expense", category:"Subscriptions", recurring:true, note:"" },
+  { id:"a436", userId:"user_arjun", date:"2026-05-05", description:"DMart — monthly grocery", amount:4260, type:"expense", category:"Food", recurring:false, note:"" },
+  { id:"a437", userId:"user_arjun", date:"2026-05-06", description:"Freelance — React dashboard module", amount:38000, type:"income", category:"Freelance", recurring:false, note:"2-week project" },
+  { id:"a438", userId:"user_arjun", date:"2026-05-07", description:"YouTube Premium", amount:139, type:"expense", category:"Subscriptions", recurring:true, note:"" },
+  { id:"a439", userId:"user_arjun", date:"2026-05-08", description:"Cult.fit — monthly membership", amount:2499, type:"expense", category:"Health", recurring:true, note:"" },
+  { id:"a440", userId:"user_arjun", date:"2026-05-09", description:"Zepto — vegetables and fruits", amount:820, type:"expense", category:"Food", recurring:false, note:"" },
+  { id:"a441", userId:"user_arjun", date:"2026-05-10", description:"Amazon — portable fan for balcony", amount:2199, type:"expense", category:"Shopping", recurring:false, note:"Summer buy" },
+  { id:"a442", userId:"user_arjun", date:"2026-05-12", description:"Swiggy — lunch delivery", amount:490, type:"expense", category:"Food", recurring:false, note:"" },
+  { id:"a443", userId:"user_arjun", date:"2026-05-13", description:"Mother's Day family dinner", amount:4800, type:"expense", category:"Food", recurring:false, note:"Restaurant for 5" },
+  { id:"a444", userId:"user_arjun", date:"2026-05-14", description:"Apollo Pharmacy — vitamins", amount:980, type:"expense", category:"Health", recurring:false, note:"" },
+  { id:"a445", userId:"user_arjun", date:"2026-05-15", description:"SIP — Axis Bluechip Fund", amount:6000, type:"expense", category:"Investment", recurring:true, note:"" },
+  { id:"a446", userId:"user_arjun", date:"2026-05-15", description:"SIP — Mirae Asset", amount:4000, type:"expense", category:"Investment", recurring:true, note:"" },
+  { id:"a447", userId:"user_arjun", date:"2026-05-16", description:"Petrol — Honda City full tank", amount:3300, type:"expense", category:"Transport", recurring:false, note:"" },
+  { id:"a448", userId:"user_arjun", date:"2026-05-18", description:"Blinkit — household essentials", amount:1140, type:"expense", category:"Food", recurring:false, note:"" },
+  { id:"a449", userId:"user_arjun", date:"2026-05-20", description:"Freelance — Node.js API contract", amount:22000, type:"income", category:"Freelance", recurring:false, note:"Short gig" },
+  { id:"a450", userId:"user_arjun", date:"2026-05-21", description:"LinkedIn Premium", amount:2599, type:"expense", category:"Subscriptions", recurring:true, note:"" },
+  { id:"a451", userId:"user_arjun", date:"2026-05-22", description:"Zomato — weekend dinner", amount:680, type:"expense", category:"Food", recurring:false, note:"" },
+  { id:"a452", userId:"user_arjun", date:"2026-05-23", description:"Interest — savings account", amount:680, type:"income", category:"Passive Income", recurring:true, note:"" },
+  { id:"a453", userId:"user_arjun", date:"2026-05-25", description:"Dividend — HDFC Nifty 50 ETF", amount:2100, type:"income", category:"Passive Income", recurring:false, note:"Quarterly payout" },
+  { id:"a454", userId:"user_arjun", date:"2026-05-26", description:"Zepto — grocery restock", amount:960, type:"expense", category:"Food", recurring:false, note:"" },
+  { id:"a455", userId:"user_arjun", date:"2026-05-28", description:"PVR — movie night", amount:840, type:"expense", category:"Entertainment", recurring:false, note:"2 tickets" },
+  { id:"a456", userId:"user_arjun", date:"2026-05-29", description:"Swiggy — comfort food", amount:520, type:"expense", category:"Food", recurring:false, note:"" },
+  { id:"a457", userId:"user_arjun", date:"2026-05-30", description:"Car wash and detailing", amount:1200, type:"expense", category:"Transport", recurring:false, note:"Monthly upkeep" },
+  { id:"a458", userId:"user_arjun", date:"2026-05-31", description:"Zomato — month end", amount:760, type:"expense", category:"Food", recurring:false, note:"" },
+
+  // ── JUNE 2026 (up to June 18) ──
+  { id:"a459", userId:"user_arjun", date:"2026-06-01", description:"Salary credit — June 2026", amount:92000, type:"income", category:"Salary", recurring:true, note:"" },
+  { id:"a460", userId:"user_arjun", date:"2026-06-01", description:"House rent — June", amount:18000, type:"expense", category:"Rent", recurring:true, note:"" },
+  { id:"a461", userId:"user_arjun", date:"2026-06-01", description:"Home loan EMI — HDFC", amount:22400, type:"expense", category:"EMI", recurring:true, note:"Month 52 of 240" },
+  { id:"a462", userId:"user_arjun", date:"2026-06-02", description:"Car loan EMI — Axis Bank", amount:8750, type:"expense", category:"EMI", recurring:true, note:"Month 28 of 60" },
+  { id:"a463", userId:"user_arjun", date:"2026-06-02", description:"Netflix", amount:649, type:"expense", category:"Subscriptions", recurring:true, note:"" },
+  { id:"a464", userId:"user_arjun", date:"2026-06-02", description:"Spotify Family", amount:179, type:"expense", category:"Subscriptions", recurring:true, note:"" },
+  { id:"a465", userId:"user_arjun", date:"2026-06-03", description:"MSEB electricity bill", amount:4200, type:"expense", category:"Utilities", recurring:true, note:"Pre-monsoon summer heat" },
+  { id:"a466", userId:"user_arjun", date:"2026-06-03", description:"Jio postpaid", amount:1499, type:"expense", category:"Utilities", recurring:true, note:"" },
+  { id:"a467", userId:"user_arjun", date:"2026-06-04", description:"Amazon Prime", amount:299, type:"expense", category:"Subscriptions", recurring:true, note:"" },
+  { id:"a468", userId:"user_arjun", date:"2026-06-04", description:"Google One — 200GB", amount:130, type:"expense", category:"Subscriptions", recurring:true, note:"" },
+  { id:"a469", userId:"user_arjun", date:"2026-06-05", description:"DMart — monthly grocery", amount:4140, type:"expense", category:"Food", recurring:false, note:"" },
+  { id:"a470", userId:"user_arjun", date:"2026-06-06", description:"Freelance — TypeScript SaaS refactor", amount:32000, type:"income", category:"Freelance", recurring:false, note:"" },
+  { id:"a471", userId:"user_arjun", date:"2026-06-07", description:"YouTube Premium", amount:139, type:"expense", category:"Subscriptions", recurring:true, note:"" },
+  { id:"a472", userId:"user_arjun", date:"2026-06-08", description:"Cult.fit — monthly membership", amount:2499, type:"expense", category:"Health", recurring:true, note:"" },
+  { id:"a473", userId:"user_arjun", date:"2026-06-09", description:"Zepto — vegetables and fruits", amount:890, type:"expense", category:"Food", recurring:false, note:"" },
+  { id:"a474", userId:"user_arjun", date:"2026-06-10", description:"Swiggy — lunch delivery", amount:540, type:"expense", category:"Food", recurring:false, note:"" },
+  { id:"a475", userId:"user_arjun", date:"2026-06-12", description:"Blinkit — household essentials", amount:980, type:"expense", category:"Food", recurring:false, note:"" },
+  { id:"a476", userId:"user_arjun", date:"2026-06-13", description:"Zomato — weekend dinner", amount:720, type:"expense", category:"Food", recurring:false, note:"" },
+  { id:"a477", userId:"user_arjun", date:"2026-06-14", description:"Petrol — Honda City full tank", amount:3300, type:"expense", category:"Transport", recurring:false, note:"" },
+  { id:"a478", userId:"user_arjun", date:"2026-06-15", description:"SIP — Axis Bluechip Fund", amount:6000, type:"expense", category:"Investment", recurring:true, note:"" },
+  { id:"a479", userId:"user_arjun", date:"2026-06-15", description:"SIP — Mirae Asset", amount:4000, type:"expense", category:"Investment", recurring:true, note:"" },
+  { id:"a480", userId:"user_arjun", date:"2026-06-16", description:"LinkedIn Premium", amount:2599, type:"expense", category:"Subscriptions", recurring:true, note:"" },
+  { id:"a481", userId:"user_arjun", date:"2026-06-17", description:"Apollo Pharmacy", amount:460, type:"expense", category:"Health", recurring:false, note:"Monsoon prep medicines" },
+  { id:"a482", userId:"user_arjun", date:"2026-06-18", description:"Amazon — rain gear — umbrella and jacket", amount:1899, type:"expense", category:"Shopping", recurring:false, note:"Monsoon season" },
+
   // ════════════════════════════════════════════════════
-  // PRIYA MEHTA — May 2025 to April 2026
+  // PRIYA MEHTA — May 2025 to June 18, 2026
   // ════════════════════════════════════════════════════
 
   // ── MAY 2025 ──
@@ -330,7 +389,7 @@ export const mockTransactions = [
   { id:"p171", userId:"user_priya", date:"2025-06-25", description:"BEST electricity", amount:4600, type:"expense", category:"Utilities", recurring:true, note:"" },
   { id:"p172", userId:"user_priya", date:"2025-06-28", description:"Big Basket — grocery", amount:7200, type:"expense", category:"Food", recurring:false, note:"" },
 
-  // ── JULY through OCTOBER 2025 — PRIYA recurring base ──
+  // ── JULY 2025 ──
   { id:"p173", userId:"user_priya", date:"2025-07-01", description:"Salary credit — July 2025", amount:120000, type:"income", category:"Salary", recurring:true, note:"" },
   { id:"p174", userId:"user_priya", date:"2025-07-01", description:"Apartment rent — Bandra", amount:45000, type:"expense", category:"Rent", recurring:true, note:"" },
   { id:"p175", userId:"user_priya", date:"2025-07-01", description:"Car loan EMI — BMW", amount:32000, type:"expense", category:"EMI", recurring:true, note:"Month 21 of 60" },
@@ -341,6 +400,7 @@ export const mockTransactions = [
   { id:"p180", userId:"user_priya", date:"2025-07-10", description:"Zomato — July food splurge", amount:18000, type:"expense", category:"Food", recurring:false, note:"High dining month" },
   { id:"p181", userId:"user_priya", date:"2025-07-20", description:"Nykaa — monsoon haul", amount:9200, type:"expense", category:"Shopping", recurring:false, note:"" },
 
+  // ── AUGUST 2025 ──
   { id:"p182", userId:"user_priya", date:"2025-08-01", description:"Salary credit — August 2025", amount:120000, type:"income", category:"Salary", recurring:true, note:"" },
   { id:"p183", userId:"user_priya", date:"2025-08-01", description:"Apartment rent — Bandra", amount:45000, type:"expense", category:"Rent", recurring:true, note:"" },
   { id:"p184", userId:"user_priya", date:"2025-08-01", description:"Car loan EMI — BMW", amount:32000, type:"expense", category:"EMI", recurring:true, note:"Month 22 of 60" },
@@ -350,6 +410,7 @@ export const mockTransactions = [
   { id:"p188", userId:"user_priya", date:"2025-08-22", description:"Interest — savings account", amount:1100, type:"income", category:"Passive Income", recurring:true, note:"" },
   { id:"p189", userId:"user_priya", date:"2025-08-18", description:"Independence Day sale — Myntra", amount:24000, type:"expense", category:"Shopping", recurring:false, note:"Big haul" },
 
+  // ── SEPTEMBER 2025 ──
   { id:"p190", userId:"user_priya", date:"2025-09-01", description:"Salary credit — September 2025", amount:120000, type:"income", category:"Salary", recurring:true, note:"" },
   { id:"p191", userId:"user_priya", date:"2025-09-01", description:"Apartment rent — Bandra", amount:45000, type:"expense", category:"Rent", recurring:true, note:"" },
   { id:"p192", userId:"user_priya", date:"2025-09-01", description:"Car loan EMI — BMW", amount:32000, type:"expense", category:"EMI", recurring:true, note:"Month 23 of 60" },
@@ -360,6 +421,7 @@ export const mockTransactions = [
   { id:"p197", userId:"user_priya", date:"2025-09-25", description:"Dividend — Mirae Asset ELSS", amount:3200, type:"income", category:"Passive Income", recurring:false, note:"Quarterly" },
   { id:"p198", userId:"user_priya", date:"2025-09-10", description:"Ganesh Chaturthi celebration party", amount:22000, type:"expense", category:"Food", recurring:false, note:"Hosted friends — 20 people" },
 
+  // ── OCTOBER 2025 ──
   { id:"p199", userId:"user_priya", date:"2025-10-01", description:"Salary credit — October 2025", amount:120000, type:"income", category:"Salary", recurring:true, note:"" },
   { id:"p200", userId:"user_priya", date:"2025-10-01", description:"Apartment rent — Bandra", amount:45000, type:"expense", category:"Rent", recurring:true, note:"" },
   { id:"p201", userId:"user_priya", date:"2025-10-01", description:"Car loan EMI — BMW", amount:32000, type:"expense", category:"EMI", recurring:true, note:"Month 24 of 60" },
@@ -455,11 +517,53 @@ export const mockTransactions = [
   { id:"p279", userId:"user_priya", date:"2026-04-28", description:"Indigo spa — monthly ritual", amount:3500, type:"expense", category:"Health", recurring:false, note:"" },
   { id:"p280", userId:"user_priya", date:"2026-04-30", description:"Zomato — end of month", amount:2100, type:"expense", category:"Food", recurring:false, note:"" },
 
+  // ── MAY 2026 ──
+  { id:"p281", userId:"user_priya", date:"2026-05-01", description:"Salary credit — May 2026", amount:130000, type:"income", category:"Salary", recurring:true, note:"" },
+  { id:"p282", userId:"user_priya", date:"2026-05-01", description:"Apartment rent — Bandra", amount:45000, type:"expense", category:"Rent", recurring:true, note:"" },
+  { id:"p283", userId:"user_priya", date:"2026-05-01", description:"Car loan EMI — BMW", amount:32000, type:"expense", category:"EMI", recurring:true, note:"Month 31 of 60" },
+  { id:"p284", userId:"user_priya", date:"2026-05-03", description:"Rental income — Thane flat", amount:22000, type:"income", category:"Passive Income", recurring:true, note:"" },
+  { id:"p285", userId:"user_priya", date:"2026-05-04", description:"BEST electricity", amount:4600, type:"expense", category:"Utilities", recurring:true, note:"Summer peak" },
+  { id:"p286", userId:"user_priya", date:"2026-05-05", description:"Big Basket — organic grocery", amount:8200, type:"expense", category:"Food", recurring:false, note:"" },
+  { id:"p287", userId:"user_priya", date:"2026-05-07", description:"Mother's Day — luxury spa and dinner", amount:12000, type:"expense", category:"Health", recurring:false, note:"Treated mom — premium spa" },
+  { id:"p288", userId:"user_priya", date:"2026-05-08", description:"Nykaa — summer skincare restock", amount:9800, type:"expense", category:"Shopping", recurring:false, note:"" },
+  { id:"p289", userId:"user_priya", date:"2026-05-10", description:"Cult.fit membership", amount:3999, type:"expense", category:"Health", recurring:true, note:"" },
+  { id:"p290", userId:"user_priya", date:"2026-05-12", description:"Petrol — BMW", amount:7200, type:"expense", category:"Transport", recurring:false, note:"" },
+  { id:"p291", userId:"user_priya", date:"2026-05-13", description:"Zomato — week of fine dining deliveries", amount:8400, type:"expense", category:"Food", recurring:false, note:"" },
+  { id:"p292", userId:"user_priya", date:"2026-05-14", description:"Weekend Alibaug trip — resort 2 nights", amount:18000, type:"expense", category:"Travel", recurring:false, note:"Long weekend getaway" },
+  { id:"p293", userId:"user_priya", date:"2026-05-15", description:"SIP — Mirae Asset ELSS", amount:20000, type:"expense", category:"Investment", recurring:true, note:"" },
+  { id:"p294", userId:"user_priya", date:"2026-05-18", description:"H&M — summer collection", amount:12000, type:"expense", category:"Shopping", recurring:false, note:"" },
+  { id:"p295", userId:"user_priya", date:"2026-05-20", description:"Swiggy — Japanese and sushi week", amount:6800, type:"expense", category:"Food", recurring:false, note:"" },
+  { id:"p296", userId:"user_priya", date:"2026-05-22", description:"Interest — savings account", amount:1400, type:"income", category:"Passive Income", recurring:true, note:"" },
+  { id:"p297", userId:"user_priya", date:"2026-05-24", description:"Dividend — Mirae Asset ELSS", amount:3800, type:"income", category:"Passive Income", recurring:false, note:"Quarterly payout" },
+  { id:"p298", userId:"user_priya", date:"2026-05-25", description:"Indigo spa — monthly ritual", amount:3500, type:"expense", category:"Health", recurring:false, note:"" },
+  { id:"p299", userId:"user_priya", date:"2026-05-27", description:"BookMyShow — live concert tickets", amount:8000, type:"expense", category:"Entertainment", recurring:false, note:"2 premium tickets" },
+  { id:"p300", userId:"user_priya", date:"2026-05-28", description:"Amazon — Dyson hair dryer", amount:24000, type:"expense", category:"Shopping", recurring:false, note:"Upgrade" },
+  { id:"p301", userId:"user_priya", date:"2026-05-30", description:"Zomato — end of month", amount:3200, type:"expense", category:"Food", recurring:false, note:"" },
+  { id:"p302", userId:"user_priya", date:"2026-05-31", description:"Oberoi brunch — Sunday", amount:5800, type:"expense", category:"Food", recurring:false, note:"" },
+
+  // ── JUNE 2026 (up to June 18) ──
+  { id:"p303", userId:"user_priya", date:"2026-06-01", description:"Salary credit — June 2026", amount:130000, type:"income", category:"Salary", recurring:true, note:"" },
+  { id:"p304", userId:"user_priya", date:"2026-06-01", description:"Apartment rent — Bandra", amount:45000, type:"expense", category:"Rent", recurring:true, note:"" },
+  { id:"p305", userId:"user_priya", date:"2026-06-01", description:"Car loan EMI — BMW", amount:32000, type:"expense", category:"EMI", recurring:true, note:"Month 32 of 60" },
+  { id:"p306", userId:"user_priya", date:"2026-06-03", description:"Rental income — Thane flat", amount:22000, type:"income", category:"Passive Income", recurring:true, note:"" },
+  { id:"p307", userId:"user_priya", date:"2026-06-04", description:"BEST electricity", amount:4400, type:"expense", category:"Utilities", recurring:true, note:"" },
+  { id:"p308", userId:"user_priya", date:"2026-06-05", description:"Big Basket — grocery", amount:7800, type:"expense", category:"Food", recurring:false, note:"" },
+  { id:"p309", userId:"user_priya", date:"2026-06-06", description:"Nykaa — monsoon haircare", amount:6200, type:"expense", category:"Shopping", recurring:false, note:"" },
+  { id:"p310", userId:"user_priya", date:"2026-06-07", description:"Maldives pre-booking — flights", amount:48000, type:"expense", category:"Travel", recurring:false, note:"Return for 2 — monsoon escape planned" },
+  { id:"p311", userId:"user_priya", date:"2026-06-09", description:"Cult.fit membership", amount:3999, type:"expense", category:"Health", recurring:true, note:"" },
+  { id:"p312", userId:"user_priya", date:"2026-06-10", description:"Petrol — BMW", amount:7000, type:"expense", category:"Transport", recurring:false, note:"" },
+  { id:"p313", userId:"user_priya", date:"2026-06-11", description:"Zomato — premium dining deliveries", amount:5400, type:"expense", category:"Food", recurring:false, note:"" },
+  { id:"p314", userId:"user_priya", date:"2026-06-13", description:"Swiggy — weekend meals", amount:3600, type:"expense", category:"Food", recurring:false, note:"" },
+  { id:"p315", userId:"user_priya", date:"2026-06-15", description:"SIP — Mirae Asset ELSS", amount:20000, type:"expense", category:"Investment", recurring:true, note:"" },
+  { id:"p316", userId:"user_priya", date:"2026-06-16", description:"Indigo spa — monthly ritual", amount:3500, type:"expense", category:"Health", recurring:false, note:"" },
+  { id:"p317", userId:"user_priya", date:"2026-06-17", description:"Myntra — monsoon wardrobe", amount:14000, type:"expense", category:"Shopping", recurring:false, note:"" },
+  { id:"p318", userId:"user_priya", date:"2026-06-18", description:"Interest — savings account", amount:1400, type:"income", category:"Passive Income", recurring:true, note:"" },
+
   // ════════════════════════════════════════════════════
-  // RAHUL KUMAR — May 2025 to April 2026
+  // RAHUL KUMAR — May 2025 to June 18, 2026
   // ════════════════════════════════════════════════════
 
-  // ── MAY 2025 — Good month ──
+  // ── MAY 2025 ──
   { id:"r143", userId:"user_rahul", date:"2025-05-01", description:"Freelance — SaaS product UI", amount:58000, type:"income", category:"Freelance", recurring:false, note:"3-week project" },
   { id:"r144", userId:"user_rahul", date:"2025-05-01", description:"House rent — Indiranagar", amount:22000, type:"expense", category:"Rent", recurring:true, note:"" },
   { id:"r145", userId:"user_rahul", date:"2025-05-02", description:"Adobe Creative Cloud", amount:4230, type:"expense", category:"Subscriptions", recurring:true, note:"" },
@@ -475,7 +579,7 @@ export const mockTransactions = [
   { id:"r155", userId:"user_rahul", date:"2025-05-25", description:"Dribbble Pro", amount:1100, type:"expense", category:"Subscriptions", recurring:true, note:"" },
   { id:"r156", userId:"user_rahul", date:"2025-05-28", description:"Zomato — end of month", amount:1400, type:"expense", category:"Food", recurring:false, note:"" },
 
-  // ── JUNE 2025 — Average month ──
+  // ── JUNE 2025 ──
   { id:"r157", userId:"user_rahul", date:"2025-06-01", description:"Freelance — branding project", amount:32000, type:"income", category:"Freelance", recurring:false, note:"" },
   { id:"r158", userId:"user_rahul", date:"2025-06-01", description:"House rent — Indiranagar", amount:22000, type:"expense", category:"Rent", recurring:true, note:"" },
   { id:"r159", userId:"user_rahul", date:"2025-06-02", description:"Adobe Creative Cloud", amount:4230, type:"expense", category:"Subscriptions", recurring:true, note:"" },
@@ -488,7 +592,7 @@ export const mockTransactions = [
   { id:"r166", userId:"user_rahul", date:"2025-06-25", description:"Dribbble Pro", amount:1100, type:"expense", category:"Subscriptions", recurring:true, note:"" },
   { id:"r167", userId:"user_rahul", date:"2025-06-28", description:"Zomato — month end", amount:1600, type:"expense", category:"Food", recurring:false, note:"" },
 
-  // ── JULY 2025 — Zero income month ──
+  // ── JULY 2025 ──
   { id:"r168", userId:"user_rahul", date:"2025-07-01", description:"House rent — Indiranagar", amount:22000, type:"expense", category:"Rent", recurring:true, note:"Worst month in a year" },
   { id:"r169", userId:"user_rahul", date:"2025-07-02", description:"Adobe Creative Cloud", amount:4230, type:"expense", category:"Subscriptions", recurring:true, note:"" },
   { id:"r170", userId:"user_rahul", date:"2025-07-02", description:"Netflix", amount:649, type:"expense", category:"Subscriptions", recurring:true, note:"" },
@@ -499,7 +603,7 @@ export const mockTransactions = [
   { id:"r175", userId:"user_rahul", date:"2025-07-20", description:"Ola — rides", amount:800, type:"expense", category:"Transport", recurring:false, note:"" },
   { id:"r176", userId:"user_rahul", date:"2025-07-25", description:"Dribbble Pro", amount:1100, type:"expense", category:"Subscriptions", recurring:true, note:"" },
 
-  // ── AUGUST 2025 — Recovery ──
+  // ── AUGUST 2025 ──
   { id:"r177", userId:"user_rahul", date:"2025-08-01", description:"Freelance — fintech brand identity", amount:72000, type:"income", category:"Freelance", recurring:false, note:"Huge project — client referral" },
   { id:"r178", userId:"user_rahul", date:"2025-08-01", description:"House rent — Indiranagar", amount:22000, type:"expense", category:"Rent", recurring:true, note:"" },
   { id:"r179", userId:"user_rahul", date:"2025-08-02", description:"Adobe Creative Cloud", amount:4230, type:"expense", category:"Subscriptions", recurring:true, note:"" },
@@ -527,7 +631,7 @@ export const mockTransactions = [
   { id:"r199", userId:"user_rahul", date:"2025-09-25", description:"Dribbble Pro", amount:1100, type:"expense", category:"Subscriptions", recurring:true, note:"" },
   { id:"r200", userId:"user_rahul", date:"2025-09-28", description:"Freelance — extra project", amount:8000, type:"income", category:"Freelance", recurring:false, note:"Quick social media kit" },
 
-  // ── OCTOBER 2025 — Slow ──
+  // ── OCTOBER 2025 ──
   { id:"r201", userId:"user_rahul", date:"2025-10-01", description:"House rent — Indiranagar", amount:22000, type:"expense", category:"Rent", recurring:true, note:"" },
   { id:"r202", userId:"user_rahul", date:"2025-10-02", description:"Adobe Creative Cloud", amount:4230, type:"expense", category:"Subscriptions", recurring:true, note:"" },
   { id:"r203", userId:"user_rahul", date:"2025-10-02", description:"Netflix", amount:649, type:"expense", category:"Subscriptions", recurring:true, note:"" },
@@ -561,7 +665,7 @@ export const mockTransactions = [
   { id:"r227", userId:"user_rahul", date:"2025-12-24", description:"NYE party — Indiranagar pub", amount:5000, type:"expense", category:"Entertainment", recurring:false, note:"" },
   { id:"r228", userId:"user_rahul", date:"2025-12-26", description:"Zomato — Christmas feast", amount:2800, type:"expense", category:"Food", recurring:false, note:"" },
 
-  // ── JANUARY 2026 — Best month ever ──
+  // ── JANUARY 2026 ──
   { id:"r229", userId:"user_rahul", date:"2026-01-01", description:"Freelance — large app redesign", amount:95000, type:"income", category:"Freelance", recurring:false, note:"6-week project — best ever" },
   { id:"r230", userId:"user_rahul", date:"2026-01-01", description:"House rent — Indiranagar", amount:22000, type:"expense", category:"Rent", recurring:true, note:"" },
   { id:"r231", userId:"user_rahul", date:"2026-01-02", description:"Adobe Creative Cloud", amount:4230, type:"expense", category:"Subscriptions", recurring:true, note:"" },
@@ -575,7 +679,7 @@ export const mockTransactions = [
   { id:"r239", userId:"user_rahul", date:"2026-01-25", description:"Dribbble Pro", amount:1100, type:"expense", category:"Subscriptions", recurring:true, note:"" },
   { id:"r240", userId:"user_rahul", date:"2026-01-28", description:"Udemy — UX research course", amount:1499, type:"expense", category:"Education", recurring:false, note:"Upskilling" },
 
-  // ── FEBRUARY 2026 — Good ──
+  // ── FEBRUARY 2026 ──
   { id:"r241", userId:"user_rahul", date:"2026-02-01", description:"Freelance — two projects", amount:54000, type:"income", category:"Freelance", recurring:false, note:"" },
   { id:"r242", userId:"user_rahul", date:"2026-02-01", description:"House rent — Indiranagar", amount:22000, type:"expense", category:"Rent", recurring:true, note:"" },
   { id:"r243", userId:"user_rahul", date:"2026-02-02", description:"Adobe Creative Cloud", amount:4230, type:"expense", category:"Subscriptions", recurring:true, note:"" },
@@ -622,129 +726,6 @@ export const mockTransactions = [
   { id:"r280", userId:"user_rahul", date:"2026-04-27", description:"Cafe Coffee Day — WFH week", amount:1200, type:"expense", category:"Food", recurring:false, note:"" },
   { id:"r281", userId:"user_rahul", date:"2026-04-29", description:"Swiggy — month end", amount:980, type:"expense", category:"Food", recurring:false, note:"" },
 
-    // ════════════════════════════════════════════════════
-  // ARJUN SHARMA — May 2026 to June 18, 2026
-  // Profile: Salaried (₹92k/mo), active freelancer, disciplined SIP investor,
-  //          pays home loan EMI + car EMI, rents at ₹18k, moderate lifestyle
-  // ════════════════════════════════════════════════════
- 
-  // ── MAY 2026 ──
-  { id:"a426", userId:"user_arjun", date:"2026-05-01", description:"Salary credit — May 2026", amount:92000, type:"income", category:"Salary", recurring:true, note:"" },
-  { id:"a427", userId:"user_arjun", date:"2026-05-01", description:"House rent — May", amount:18000, type:"expense", category:"Rent", recurring:true, note:"" },
-  { id:"a428", userId:"user_arjun", date:"2026-05-01", description:"Home loan EMI — HDFC", amount:22400, type:"expense", category:"EMI", recurring:true, note:"Month 51 of 240" },
-  { id:"a429", userId:"user_arjun", date:"2026-05-02", description:"Car loan EMI — Axis Bank", amount:8750, type:"expense", category:"EMI", recurring:true, note:"Month 27 of 60" },
-  { id:"a430", userId:"user_arjun", date:"2026-05-02", description:"Netflix", amount:649, type:"expense", category:"Subscriptions", recurring:true, note:"" },
-  { id:"a431", userId:"user_arjun", date:"2026-05-02", description:"Spotify Family", amount:179, type:"expense", category:"Subscriptions", recurring:true, note:"" },
-  { id:"a432", userId:"user_arjun", date:"2026-05-03", description:"MSEB electricity bill", amount:4380, type:"expense", category:"Utilities", recurring:true, note:"Summer peak — AC running" },
-  { id:"a433", userId:"user_arjun", date:"2026-05-03", description:"Jio postpaid", amount:1499, type:"expense", category:"Utilities", recurring:true, note:"" },
-  { id:"a434", userId:"user_arjun", date:"2026-05-04", description:"Amazon Prime", amount:299, type:"expense", category:"Subscriptions", recurring:true, note:"" },
-  { id:"a435", userId:"user_arjun", date:"2026-05-04", description:"Google One — 200GB", amount:130, type:"expense", category:"Subscriptions", recurring:true, note:"" },
-  { id:"a436", userId:"user_arjun", date:"2026-05-05", description:"DMart — monthly grocery", amount:4260, type:"expense", category:"Food", recurring:false, note:"" },
-  { id:"a437", userId:"user_arjun", date:"2026-05-06", description:"Freelance — React dashboard module", amount:38000, type:"income", category:"Freelance", recurring:false, note:"2-week project" },
-  { id:"a438", userId:"user_arjun", date:"2026-05-07", description:"YouTube Premium", amount:139, type:"expense", category:"Subscriptions", recurring:true, note:"" },
-  { id:"a439", userId:"user_arjun", date:"2026-05-08", description:"Cult.fit — monthly membership", amount:2499, type:"expense", category:"Health", recurring:true, note:"" },
-  { id:"a440", userId:"user_arjun", date:"2026-05-09", description:"Zepto — vegetables and fruits", amount:820, type:"expense", category:"Food", recurring:false, note:"" },
-  { id:"a441", userId:"user_arjun", date:"2026-05-10", description:"Amazon — portable fan for balcony", amount:2199, type:"expense", category:"Shopping", recurring:false, note:"Summer buy" },
-  { id:"a442", userId:"user_arjun", date:"2026-05-12", description:"Swiggy — lunch delivery", amount:490, type:"expense", category:"Food", recurring:false, note:"" },
-  { id:"a443", userId:"user_arjun", date:"2026-05-13", description:"Mother's Day family dinner", amount:4800, type:"expense", category:"Food", recurring:false, note:"Restaurant for 5" },
-  { id:"a444", userId:"user_arjun", date:"2026-05-14", description:"Apollo Pharmacy — vitamins", amount:980, type:"expense", category:"Health", recurring:false, note:"" },
-  { id:"a445", userId:"user_arjun", date:"2026-05-15", description:"SIP — Axis Bluechip Fund", amount:6000, type:"expense", category:"Investment", recurring:true, note:"" },
-  { id:"a446", userId:"user_arjun", date:"2026-05-15", description:"SIP — Mirae Asset", amount:4000, type:"expense", category:"Investment", recurring:true, note:"" },
-  { id:"a447", userId:"user_arjun", date:"2026-05-16", description:"Petrol — Honda City full tank", amount:3300, type:"expense", category:"Transport", recurring:false, note:"" },
-  { id:"a448", userId:"user_arjun", date:"2026-05-18", description:"Blinkit — household essentials", amount:1140, type:"expense", category:"Food", recurring:false, note:"" },
-  { id:"a449", userId:"user_arjun", date:"2026-05-20", description:"Freelance — Node.js API contract", amount:22000, type:"income", category:"Freelance", recurring:false, note:"Short gig" },
-  { id:"a450", userId:"user_arjun", date:"2026-05-21", description:"LinkedIn Premium", amount:2599, type:"expense", category:"Subscriptions", recurring:true, note:"" },
-  { id:"a451", userId:"user_arjun", date:"2026-05-22", description:"Zomato — weekend dinner", amount:680, type:"expense", category:"Food", recurring:false, note:"" },
-  { id:"a452", userId:"user_arjun", date:"2026-05-23", description:"Interest — savings account", amount:680, type:"income", category:"Passive Income", recurring:true, note:"" },
-  { id:"a453", userId:"user_arjun", date:"2026-05-25", description:"Dividend — HDFC Nifty 50 ETF", amount:2100, type:"income", category:"Passive Income", recurring:false, note:"Quarterly payout" },
-  { id:"a454", userId:"user_arjun", date:"2026-05-26", description:"Zepto — grocery restock", amount:960, type:"expense", category:"Food", recurring:false, note:"" },
-  { id:"a455", userId:"user_arjun", date:"2026-05-28", description:"PVR — movie night", amount:840, type:"expense", category:"Entertainment", recurring:false, note:"2 tickets" },
-  { id:"a456", userId:"user_arjun", date:"2026-05-29", description:"Swiggy — comfort food", amount:520, type:"expense", category:"Food", recurring:false, note:"" },
-  { id:"a457", userId:"user_arjun", date:"2026-05-30", description:"Car wash and detailing", amount:1200, type:"expense", category:"Transport", recurring:false, note:"Monthly upkeep" },
-  { id:"a458", userId:"user_arjun", date:"2026-05-31", description:"Zomato — month end", amount:760, type:"expense", category:"Food", recurring:false, note:"" },
- 
-  // ── JUNE 2026 (up to June 18) ──
-  { id:"a459", userId:"user_arjun", date:"2026-06-01", description:"Salary credit — June 2026", amount:92000, type:"income", category:"Salary", recurring:true, note:"" },
-  { id:"a460", userId:"user_arjun", date:"2026-06-01", description:"House rent — June", amount:18000, type:"expense", category:"Rent", recurring:true, note:"" },
-  { id:"a461", userId:"user_arjun", date:"2026-06-01", description:"Home loan EMI — HDFC", amount:22400, type:"expense", category:"EMI", recurring:true, note:"Month 52 of 240" },
-  { id:"a462", userId:"user_arjun", date:"2026-06-02", description:"Car loan EMI — Axis Bank", amount:8750, type:"expense", category:"EMI", recurring:true, note:"Month 28 of 60" },
-  { id:"a463", userId:"user_arjun", date:"2026-06-02", description:"Netflix", amount:649, type:"expense", category:"Subscriptions", recurring:true, note:"" },
-  { id:"a464", userId:"user_arjun", date:"2026-06-02", description:"Spotify Family", amount:179, type:"expense", category:"Subscriptions", recurring:true, note:"" },
-  { id:"a465", userId:"user_arjun", date:"2026-06-03", description:"MSEB electricity bill", amount:4200, type:"expense", category:"Utilities", recurring:true, note:"Pre-monsoon summer heat" },
-  { id:"a466", userId:"user_arjun", date:"2026-06-03", description:"Jio postpaid", amount:1499, type:"expense", category:"Utilities", recurring:true, note:"" },
-  { id:"a467", userId:"user_arjun", date:"2026-06-04", description:"Amazon Prime", amount:299, type:"expense", category:"Subscriptions", recurring:true, note:"" },
-  { id:"a468", userId:"user_arjun", date:"2026-06-04", description:"Google One — 200GB", amount:130, type:"expense", category:"Subscriptions", recurring:true, note:"" },
-  { id:"a469", userId:"user_arjun", date:"2026-06-05", description:"DMart — monthly grocery", amount:4140, type:"expense", category:"Food", recurring:false, note:"" },
-  { id:"a470", userId:"user_arjun", date:"2026-06-06", description:"Freelance — TypeScript SaaS refactor", amount:32000, type:"income", category:"Freelance", recurring:false, note:"" },
-  { id:"a471", userId:"user_arjun", date:"2026-06-07", description:"YouTube Premium", amount:139, type:"expense", category:"Subscriptions", recurring:true, note:"" },
-  { id:"a472", userId:"user_arjun", date:"2026-06-08", description:"Cult.fit — monthly membership", amount:2499, type:"expense", category:"Health", recurring:true, note:"" },
-  { id:"a473", userId:"user_arjun", date:"2026-06-09", description:"Zepto — vegetables and fruits", amount:890, type:"expense", category:"Food", recurring:false, note:"" },
-  { id:"a474", userId:"user_arjun", date:"2026-06-10", description:"Swiggy — lunch delivery", amount:540, type:"expense", category:"Food", recurring:false, note:"" },
-  { id:"a475", userId:"user_arjun", date:"2026-06-12", description:"Blinkit — household essentials", amount:980, type:"expense", category:"Food", recurring:false, note:"" },
-  { id:"a476", userId:"user_arjun", date:"2026-06-13", description:"Zomato — weekend dinner", amount:720, type:"expense", category:"Food", recurring:false, note:"" },
-  { id:"a477", userId:"user_arjun", date:"2026-06-14", description:"Petrol — Honda City full tank", amount:3300, type:"expense", category:"Transport", recurring:false, note:"" },
-  { id:"a478", userId:"user_arjun", date:"2026-06-15", description:"SIP — Axis Bluechip Fund", amount:6000, type:"expense", category:"Investment", recurring:true, note:"" },
-  { id:"a479", userId:"user_arjun", date:"2026-06-15", description:"SIP — Mirae Asset", amount:4000, type:"expense", category:"Investment", recurring:true, note:"" },
-  { id:"a480", userId:"user_arjun", date:"2026-06-16", description:"LinkedIn Premium", amount:2599, type:"expense", category:"Subscriptions", recurring:true, note:"" },
-  { id:"a481", userId:"user_arjun", date:"2026-06-17", description:"Apollo Pharmacy", amount:460, type:"expense", category:"Health", recurring:false, note:"Monsoon prep medicines" },
-  { id:"a482", userId:"user_arjun", date:"2026-06-18", description:"Amazon — rain gear — umbrella and jacket", amount:1899, type:"expense", category:"Shopping", recurring:false, note:"Monsoon season" },
- 
-  // ════════════════════════════════════════════════════
-  // PRIYA MEHTA — May 2026 to June 18, 2026
-  // Profile: Senior PM (₹1.3L/mo), luxury lifestyle, Bandra apartment ₹45k,
-  //          BMW loan ₹32k EMI, Thane rental income ₹22k, heavy SIP ₹20k,
-  //          frequent premium travel, designer shopping, premium dining
-  // ════════════════════════════════════════════════════
- 
-  // ── MAY 2026 ──
-  { id:"p281", userId:"user_priya", date:"2026-05-01", description:"Salary credit — May 2026", amount:130000, type:"income", category:"Salary", recurring:true, note:"" },
-  { id:"p282", userId:"user_priya", date:"2026-05-01", description:"Apartment rent — Bandra", amount:45000, type:"expense", category:"Rent", recurring:true, note:"" },
-  { id:"p283", userId:"user_priya", date:"2026-05-01", description:"Car loan EMI — BMW", amount:32000, type:"expense", category:"EMI", recurring:true, note:"Month 31 of 60" },
-  { id:"p284", userId:"user_priya", date:"2026-05-03", description:"Rental income — Thane flat", amount:22000, type:"income", category:"Passive Income", recurring:true, note:"" },
-  { id:"p285", userId:"user_priya", date:"2026-05-04", description:"BEST electricity", amount:4600, type:"expense", category:"Utilities", recurring:true, note:"Summer peak" },
-  { id:"p286", userId:"user_priya", date:"2026-05-05", description:"Big Basket — organic grocery", amount:8200, type:"expense", category:"Food", recurring:false, note:"" },
-  { id:"p287", userId:"user_priya", date:"2026-05-07", description:"Mother's Day — luxury spa and dinner", amount:12000, type:"expense", category:"Health", recurring:false, note:"Treated mom — premium spa" },
-  { id:"p288", userId:"user_priya", date:"2026-05-08", description:"Nykaa — summer skincare restock", amount:9800, type:"expense", category:"Shopping", recurring:false, note:"" },
-  { id:"p289", userId:"user_priya", date:"2026-05-10", description:"Cult.fit membership", amount:3999, type:"expense", category:"Health", recurring:true, note:"" },
-  { id:"p290", userId:"user_priya", date:"2026-05-12", description:"Petrol — BMW", amount:7200, type:"expense", category:"Transport", recurring:false, note:"" },
-  { id:"p291", userId:"user_priya", date:"2026-05-13", description:"Zomato — week of fine dining deliveries", amount:8400, type:"expense", category:"Food", recurring:false, note:"" },
-  { id:"p292", userId:"user_priya", date:"2026-05-14", description:"Weekend Alibaug trip — resort 2 nights", amount:18000, type:"expense", category:"Travel", recurring:false, note:"Long weekend getaway" },
-  { id:"p293", userId:"user_priya", date:"2026-05-15", description:"SIP — Mirae Asset ELSS", amount:20000, type:"expense", category:"Investment", recurring:true, note:"" },
-  { id:"p294", userId:"user_priya", date:"2026-05-18", description:"H&M — summer collection", amount:12000, type:"expense", category:"Shopping", recurring:false, note:"" },
-  { id:"p295", userId:"user_priya", date:"2026-05-20", description:"Swiggy — Japanese and sushi week", amount:6800, type:"expense", category:"Food", recurring:false, note:"" },
-  { id:"p296", userId:"user_priya", date:"2026-05-22", description:"Interest — savings account", amount:1400, type:"income", category:"Passive Income", recurring:true, note:"" },
-  { id:"p297", userId:"user_priya", date:"2026-05-24", description:"Dividend — Mirae Asset ELSS", amount:3800, type:"income", category:"Passive Income", recurring:false, note:"Quarterly payout" },
-  { id:"p298", userId:"user_priya", date:"2026-05-25", description:"Indigo spa — monthly ritual", amount:3500, type:"expense", category:"Health", recurring:false, note:"" },
-  { id:"p299", userId:"user_priya", date:"2026-05-27", description:"BookMyShow — live concert tickets", amount:8000, type:"expense", category:"Entertainment", recurring:false, note:"2 premium tickets" },
-  { id:"p300", userId:"user_priya", date:"2026-05-28", description:"Amazon — Dyson hair dryer", amount:24000, type:"expense", category:"Shopping", recurring:false, note:"Upgrade" },
-  { id:"p301", userId:"user_priya", date:"2026-05-30", description:"Zomato — end of month", amount:3200, type:"expense", category:"Food", recurring:false, note:"" },
-  { id:"p302", userId:"user_priya", date:"2026-05-31", description:"Oberoi brunch — Sunday", amount:5800, type:"expense", category:"Food", recurring:false, note:"" },
- 
-  // ── JUNE 2026 (up to June 18) ──
-  { id:"p303", userId:"user_priya", date:"2026-06-01", description:"Salary credit — June 2026", amount:130000, type:"income", category:"Salary", recurring:true, note:"" },
-  { id:"p304", userId:"user_priya", date:"2026-06-01", description:"Apartment rent — Bandra", amount:45000, type:"expense", category:"Rent", recurring:true, note:"" },
-  { id:"p305", userId:"user_priya", date:"2026-06-01", description:"Car loan EMI — BMW", amount:32000, type:"expense", category:"EMI", recurring:true, note:"Month 32 of 60" },
-  { id:"p306", userId:"user_priya", date:"2026-06-03", description:"Rental income — Thane flat", amount:22000, type:"income", category:"Passive Income", recurring:true, note:"" },
-  { id:"p307", userId:"user_priya", date:"2026-06-04", description:"BEST electricity", amount:4400, type:"expense", category:"Utilities", recurring:true, note:"" },
-  { id:"p308", userId:"user_priya", date:"2026-06-05", description:"Big Basket — grocery", amount:7800, type:"expense", category:"Food", recurring:false, note:"" },
-  { id:"p309", userId:"user_priya", date:"2026-06-06", description:"Nykaa — monsoon haircare", amount:6200, type:"expense", category:"Shopping", recurring:false, note:"" },
-  { id:"p310", userId:"user_priya", date:"2026-06-07", description:"Maldives pre-booking — flights", amount:48000, type:"expense", category:"Travel", recurring:false, note:"Return for 2 — monsoon escape planned" },
-  { id:"p311", userId:"user_priya", date:"2026-06-09", description:"Cult.fit membership", amount:3999, type:"expense", category:"Health", recurring:true, note:"" },
-  { id:"p312", userId:"user_priya", date:"2026-06-10", description:"Petrol — BMW", amount:7000, type:"expense", category:"Transport", recurring:false, note:"" },
-  { id:"p313", userId:"user_priya", date:"2026-06-11", description:"Zomato — premium dining deliveries", amount:5400, type:"expense", category:"Food", recurring:false, note:"" },
-  { id:"p314", userId:"user_priya", date:"2026-06-13", description:"Swiggy — weekend meals", amount:3600, type:"expense", category:"Food", recurring:false, note:"" },
-  { id:"p315", userId:"user_priya", date:"2026-06-15", description:"SIP — Mirae Asset ELSS", amount:20000, type:"expense", category:"Investment", recurring:true, note:"" },
-  { id:"p316", userId:"user_priya", date:"2026-06-16", description:"Indigo spa — monthly ritual", amount:3500, type:"expense", category:"Health", recurring:false, note:"" },
-  { id:"p317", userId:"user_priya", date:"2026-06-17", description:"Myntra — monsoon wardrobe", amount:14000, type:"expense", category:"Shopping", recurring:false, note:"" },
-  { id:"p318", userId:"user_priya", date:"2026-06-18", description:"Interest — savings account", amount:1400, type:"income", category:"Passive Income", recurring:true, note:"Slightly early this month" },
- 
-  // ════════════════════════════════════════════════════
-  // RAHUL KUMAR — May 2026 to June 18, 2026
-  // Profile: Freelance designer (variable income), Indiranagar rent ₹22k,
-  //          Adobe CC subscriber, Dribbble Pro, erratic income pattern,
-  //          moderate lifestyle, loves gadgets and travel, no EMIs
-  // ════════════════════════════════════════════════════
- 
   // ── MAY 2026 ──
   { id:"r282", userId:"user_rahul", date:"2026-05-01", description:"Freelance — product design retainer", amount:52000, type:"income", category:"Freelance", recurring:false, note:"Month-long retainer — fintech client" },
   { id:"r283", userId:"user_rahul", date:"2026-05-01", description:"House rent — Indiranagar", amount:22000, type:"expense", category:"Rent", recurring:true, note:"" },
@@ -768,7 +749,7 @@ export const mockTransactions = [
   { id:"r301", userId:"user_rahul", date:"2026-05-28", description:"Cafe Coffee Day — WFH week", amount:1400, type:"expense", category:"Food", recurring:false, note:"Working from café" },
   { id:"r302", userId:"user_rahul", date:"2026-05-30", description:"Zomato — month end", amount:1800, type:"expense", category:"Food", recurring:false, note:"" },
   { id:"r303", userId:"user_rahul", date:"2026-05-31", description:"BookMyShow — IPL screening", amount:600, type:"expense", category:"Entertainment", recurring:false, note:"Sports bar ticket" },
- 
+
   // ── JUNE 2026 (up to June 18) ──
   { id:"r304", userId:"user_rahul", date:"2026-06-01", description:"Freelance — mobile app UI refresh", amount:38000, type:"income", category:"Freelance", recurring:false, note:"New client — health-tech startup" },
   { id:"r305", userId:"user_rahul", date:"2026-06-01", description:"House rent — Indiranagar", amount:22000, type:"expense", category:"Rent", recurring:true, note:"" },
